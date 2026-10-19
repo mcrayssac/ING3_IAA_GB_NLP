@@ -78,10 +78,6 @@
     {
      "id": "t4",
      "type": "text"
-    },
-    {
-     "id": "a39",
-     "type": "arrow"
     }
    ]
   },
@@ -267,10 +263,6 @@
     {
      "id": "t16",
      "type": "text"
-    },
-    {
-     "id": "a39",
-     "type": "arrow"
     },
     {
      "id": "a40",
@@ -474,12 +466,12 @@
   {
    "type": "text",
    "id": "t28",
-   "x": 166.48000000000002,
+   "x": 140.38,
    "y": 532.5,
-   "width": 167.04,
+   "width": 219.23999999999998,
    "height": 45.0,
-   "text": "4 x Block(64, 4)\nnn.Sequential",
-   "originalText": "4 x Block(64, 4)\nnn.Sequential",
+   "text": "add embeddings\nthen 4 x Block(64, 4)",
+   "originalText": "add embeddings\nthen 4 x Block(64, 4)",
    "fontSize": 18,
    "fontFamily": 1,
    "strokeColor": "#1e1e1e",
@@ -649,42 +641,34 @@
   },
   {
    "type": "arrow",
-   "id": "a39",
-   "x": 250.0,
-   "y": 240,
-   "width": 0.0,
-   "height": 90,
+   "id": "l39",
+   "x": 55,
+   "y": 195,
+   "width": 20,
+   "height": 360,
    "points": [
     [
      0,
      0
     ],
     [
-     0.0,
-     90
-    ]
-   ],
-   "endArrowhead": "arrow",
-   "strokeColor": "#1e1e1e",
-   "strokeWidth": 2,
-   "startBinding": {
-    "elementId": "r5",
-    "fixedPoint": [
-     0.5,
-     1
-    ],
-    "focus": 0,
-    "gap": 4
-   },
-   "endBinding": {
-    "elementId": "r17",
-    "fixedPoint": [
-     0.5,
+     -20,
      0
     ],
-    "focus": 0,
-    "gap": 4
-   }
+    [
+     -20,
+     360
+    ],
+    [
+     0,
+     360
+    ]
+   ],
+   "strokeColor": "#1e1e1e",
+   "strokeWidth": 2,
+   "roughness": 0,
+   "endArrowhead": "arrow",
+   "groupIds": []
   },
   {
    "type": "arrow",
@@ -1479,12 +1463,12 @@
   {
    "type": "text",
    "id": "t76",
-   "x": 650.82,
+   "x": 624.72,
    "y": 702.5,
-   "width": 198.35999999999999,
+   "width": 250.55999999999997,
    "height": 45.0,
-   "text": "initial scales,\nexpected first loss",
-   "originalText": "initial scales,\nexpected first loss",
+   "text": "initial scales,\nrough loss approximation",
+   "originalText": "initial scales,\nrough loss approximation",
    "fontSize": 18,
    "fontFamily": 1,
    "strokeColor": "#1e1e1e",
@@ -2327,12 +2311,12 @@
   {
    "type": "text",
    "id": "t118",
-   "x": 1201.7,
+   "x": 1159.94,
    "y": 702.5,
-   "width": 156.6,
+   "width": 240.11999999999998,
    "height": 45.0,
-   "text": "first loss near\n4.35 (5)",
-   "originalText": "first loss near\n4.35 (5)",
+   "text": "approximation 4.35\nmeasure actual loss (5)",
+   "originalText": "approximation 4.35\nmeasure actual loss (5)",
    "fontSize": 18,
    "fontFamily": 1,
    "strokeColor": "#1e1e1e",
